@@ -126,4 +126,5 @@ msgQ3 db 0Dh,0Ah,'jil mun eul theo ssul gae eup da! ',0Dh,0Ah,'$'
 msgE3 db 0Dh,0Ah,'gam sa hap ni da!',0Dh,0Ah,'$'
 msgR3 db 0Dh,0Ah,'go map sup ni da!',0Dh,0Ah,'$'
 
+;이 어셈블리는 그냥 저 테이블만 채워주면 여러가지 다 할수있게 됩니다. 물론 질문의 추가 제거 빼곤 확장성이 없습니다.
 END start
