@@ -2,7 +2,7 @@
   .model small 
   .stack 100h
   .data
-character db '0'
+character db 'a'
   .code
 main:
   mov  ax, @data
@@ -22,4 +22,4 @@ exit:
   mov  ah, 4ch
   int  21h
   end
-;책에 있던 어셈블리 코드, 흑백모니터에선 0b000h 라 전환하라 서술되어있음. 끝.
+;내가 배우던 책에 있던 어셈블리 코드, 흑백모니터에선 0b000h 라 전환하라 서술되어있음. 끝.
